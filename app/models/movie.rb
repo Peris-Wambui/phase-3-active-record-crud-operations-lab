@@ -1,6 +1,6 @@
 class Movie < ActiveRecord::Base
 def self.create_with_title(title)
-    Movie.create(title: "my movie!")
+    Movie.create(title: "This is a title.")
 end
 def self.first_movie
     Movie.first
